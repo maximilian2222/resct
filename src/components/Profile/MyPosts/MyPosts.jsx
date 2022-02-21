@@ -12,8 +12,8 @@ const MyPosts = (props) => {
         </div>
             <div className= {s.item}>
                 <Post />
-                <Post massage= 'Hisss' />
-                <Post mas= 'sds'/>
+                <Post massage= 'Hisss' likesCount ='0' />
+                <Post mas= 'sds' likesCount ='23'/>
             </div>
         </div>
     )
